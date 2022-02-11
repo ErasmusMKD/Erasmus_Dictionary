@@ -1,0 +1,660 @@
+<!--The width of each column should be 15vw-->
+<!--
+    function play(number) {
+                switch (number) {
+                    case 1:
+                        var audio = new Audio('Temporary.mp3');
+                        audio.play();
+                    case 2:
+                        break
+                }
+                
+            }
+-->
+
+
+<html>
+    <head>
+        <title>Dictionary For Basic Words</title>
+        <style>
+            body {
+                margin: 0;
+            }
+            #content1 {
+                background-image: url('background_1.png');
+                background-repeat: no-repeat;
+                background-size: cover;
+                padding-bottom: 5vw;
+                margin-top: 0vw;
+                margin-bottom: 0vw;
+            }
+            #content2 {
+                background-image: url('background_2.png');
+                background-repeat: no-repeat;
+                background-size: cover;
+                padding-bottom: 5vw;
+                margin-top: 0vw;
+            }
+            #content3 {
+                background-image: url('background_3.png');
+                background-repeat: no-repeat;
+                background-size: cover;
+                padding-bottom: 5vw;
+                margin-top: 0vw;
+            }
+            #content4 {
+                background-image: url('background_4.png');
+                background-repeat: no-repeat;
+                background-size: cover;
+                padding-bottom: 5vw;
+                margin-top: 0vw;
+            }
+            #content5 {
+                background-image: url('background_5.png');
+                background-repeat: no-repeat;
+                background-size: cover;
+                padding-bottom: 5vw;
+                margin-top: 0vw;
+            }
+            #content6 {
+                background-image: url('background_6.png');
+                background-repeat: no-repeat;
+                background-size: cover;
+                padding-bottom: 5vw;
+                margin-top: 0vw;
+            }
+            .grid-container {
+                display: grid;
+                grid-template-columns: 15vw 15vw 15vw 15vw 15vw 15vw;
+                background-color: #424141;
+                grid-column-gap: 0vw;
+                margin-top: 10vh;
+                margin-left: 4.6vw;
+                margin-right: 4.6vw;
+                bottom: 5vw;
+            }
+            .grid-item {
+                text-align: center;
+                margin: 0vw;
+                height: 10vw;
+                
+                border-style: solid;
+                border-width: 1px;
+                border-color: black;
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 3vw;
+                color: white;
+                background-image: url("Button_Background.png");
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+            .top {
+                background-image: url("Label_Background.png");
+                background-repeat: no-repeat;
+                background-size: cover;
+                padding-top: 1vw;
+                padding-bottom: 1vw;
+            }
+            .flags {
+                width: 7vw;
+                height: 4vw;
+                padding-top: 1vw;
+                padding-bottom: 0vw;
+            }
+            .Label {
+                margin-top: 1vw;
+            }
+            .header {
+                text-align: center;
+                font-size: 13vw;
+                color: white;
+                background-image: url("Title_Background.png");
+                background-repeat: no-repeat;
+                background-size: cover;
+                font-family: Arial, Helvetica, sans-serif;
+                margin: 0vw;
+            }
+            #macedonian {
+                margin-top: 1.5vw;
+                font-size: 2.5vw;
+            }
+        </style>
+        <script>
+            function play() {
+                var audio = new Audio('Temporary.mp3');
+                audio.play();
+                
+            }
+        </script>
+    </head>
+    <body>
+        <div id = 'content1'>
+            <div>
+                <h1 class = 'header'>Numbers</h1>
+            </div>
+            <div class="grid-container">
+                <div class="grid-item top">
+                    <img src = 'United_Kingdom.png' class = 'flags'>
+                    <p class = 'label'>English</p>
+                </div>
+                <div class="grid-item top">
+                    <img src = "Turkey.png" class = 'flags'>
+                    <p class = 'label'>Turkish</p>
+                </div>
+                <div class="grid-item top">
+                    <img src = 'Italy.png' class = 'flags'>
+                    <p class = 'label'>Italian</p>
+                </div>  
+                <div class="grid-item top">
+                    <img src = 'Slovenia.png' class = 'flags'>
+                    <p class = 'label'>Slovenian</p>
+                </div>
+                <div class="grid-item top">
+                    <img src = 'North_Macedonia.png' class = 'flags'>
+                    <p class = 'label' id = 'macedonian'>Macedonian</p>
+                </div>
+                <div class="grid-item top">
+                    <img src = 'Romania.png' class = 'flags'>
+                    <p class = 'label'>Romanian</p> 
+                </div>  
+                <button class="grid-item" type="button" onclick="play()">One</button>
+                <button class="grid-item" type="button" onclick="play()">Bir</button>
+                <button class="grid-item" type="button" onclick="play()">Uno</button>
+                <button class="grid-item" type="button" onclick="play()">Eno</button>
+                <button class="grid-item" type="button" onclick="play()">Eden</button>
+                <button class="grid-item" type="button" onclick="play()">Unu</button>
+                <button class="grid-item" type="button" onclick="play()">Two</button>
+                <button class="grid-item" type="button" onclick="play()">Iki</button>
+                <button class="grid-item" type="button" onclick="play()">Due</button>
+                <button class="grid-item" type="button" onclick="play()">Dve</button>
+                <button class="grid-item" type="button" onclick="play()">Dva</button>
+                <button class="grid-item" type="button" onclick="play()">Doi</button>
+                <button class="grid-item" type="button" onclick="play()">Three</button>
+                <button class="grid-item" type="button" onclick="play()">üç</button>
+                <button class="grid-item" type="button" onclick="play()">Tre</button>
+                <button class="grid-item" type="button" onclick="play()">Trije</button>
+                <button class="grid-item" type="button" onclick="play()">Tri</button>
+                <button class="grid-item" type="button" onclick="play()">Trei</button>
+                <button class="grid-item" type="button" onclick="play()">Four</button>
+                <button class="grid-item" type="button" onclick="play()">Dört</button>
+                <button class="grid-item" type="button" onclick="play()">Quattro</button>
+                <button class="grid-item" type="button" onclick="play()">štiri</button>
+                <button class="grid-item" type="button" onclick="play()">Cetiri</button>
+                <button class="grid-item" type="button" onclick="play()">Patru</button>
+                <button class="grid-item" type="button" onclick="play()">Five</button>
+                <button class="grid-item" type="button" onclick="play()">Beş</button>
+                <button class="grid-item" type="button" onclick="play()">Cinque</button>
+                <button class="grid-item" type="button" onclick="play()">Pet</button>
+                <button class="grid-item" type="button" onclick="play()">Pet</button>
+                <button class="grid-item" type="button" onclick="play()">Cinci</button>
+                <button class="grid-item" type="button" onclick="play()">Six</button>
+                <button class="grid-item" type="button" onclick="play()">Altı</button>
+                <button class="grid-item" type="button" onclick="play()">Sei</button>
+                <button class="grid-item" type="button" onclick="play()">šest</button>
+                <button class="grid-item" type="button" onclick="play()">Sest</button>
+                <button class="grid-item" type="button" onclick="play()">Șase</button>
+                <button class="grid-item" type="button" onclick="play()">Seven</button>
+                <button class="grid-item" type="button" onclick="play()">Yedi</button>
+                <button class="grid-item" type="button" onclick="play()">Sette</button>
+                <button class="grid-item" type="button" onclick="play()">Sedem</button>
+                <button class="grid-item" type="button" onclick="play()">Sedum</button>
+                <button class="grid-item" type="button" onclick="play()">Șapte</button>
+                <button class="grid-item" type="button" onclick="play()">Eight</button>
+                <button class="grid-item" type="button" onclick="play()">Sekiz</button>
+                <button class="grid-item" type="button" onclick="play()">Otto</button>
+                <button class="grid-item" type="button" onclick="play()">Osem</button>
+                <button class="grid-item" type="button" onclick="play()">Osum</button>
+                <button class="grid-item" type="button" onclick="play()">Opt</button>
+                <button class="grid-item" type="button" onclick="play()">Nine</button>
+                <button class="grid-item" type="button" onclick="play()">Dokuz</button>
+                <button class="grid-item" type="button" onclick="play()">Nove</button>
+                <button class="grid-item" type="button" onclick="play()">Devet</button>
+                <button class="grid-item" type="button" onclick="play()">Devet</button>
+                <button class="grid-item" type="button" onclick="play()">Nouă</button>
+                <button class="grid-item" type="button" onclick="play()">Ten</button>
+                <button class="grid-item" type="button" onclick="play()">On</button>
+                <button class="grid-item" type="button" onclick="play()">Dieci</button>
+                <button class="grid-item" type="button" onclick="play()">Deset</button>
+                <button class="grid-item" type="button" onclick="play()">Deset</button>
+                <button class="grid-item" type="button" onclick="play()">Zece</button>
+            </div>
+        </div>
+
+<!-- ###################################################################################################### -->
+<!-- ###################################################################################################### -->
+<!-- ###################################################################################################### -->
+<!-- ###################################################################################################### -->
+
+        <div id = 'content2'>
+            <div>
+                <h1 class = 'header'>Colors</h1>
+            </div>
+            <div class="grid-container">
+                <div class="grid-item top">
+                    <img src = 'United_Kingdom.png' class = 'flags'>
+                    <p class = 'label'>English</p>
+                </div>
+                <div class="grid-item top">
+                    <img src = "Turkey.png" class = 'flags'>
+                    <p class = 'label'>Turkish</p>
+                </div>
+                <div class="grid-item top">
+                    <img src = 'Italy.png' class = 'flags'>
+                    <p class = 'label'>Italian</p>
+                </div>  
+                <div class="grid-item top">
+                    <img src = 'Slovenia.png' class = 'flags'>
+                    <p class = 'label'>Slovenian</p>
+                </div>
+                <div class="grid-item top">
+                    <img src = 'North_Macedonia.png' class = 'flags'>
+                    <p class = 'label' id = 'macedonian'>Macedonian</p>
+                </div>
+                <div class="grid-item top">
+                    <img src = 'Romania.png' class = 'flags'>
+                    <p class = 'label'>Romanian</p> 
+                </div>  
+                <button class="grid-item" type="button" onclick="play()">Red</button>
+                <button class="grid-item" type="button" onclick="play()">Kırmızı</button>
+                <button class="grid-item" type="button" onclick="play()">Rosso</button>
+                <button class="grid-item" type="button" onclick="play()">Rdeča</button>
+                <button class="grid-item" type="button" onclick="play()">Crvena</button>
+                <button class="grid-item" type="button" onclick="play()">Roșu</button>
+                <button class="grid-item" type="button" onclick="play()">Orange</button>
+                <button class="grid-item" type="button" onclick="play()">Turuncu</button>
+                <button class="grid-item" type="button" onclick="play()" style = "font-size: 2.7vw">Arancione</button>
+                <button class="grid-item" type="button" onclick="play()">Oranžna</button>
+                <button class="grid-item" type="button" onclick="play()" style = "font-size: 2.4vw">Portokalova</button>
+                <button class="grid-item" type="button" onclick="play()" style = "font-size: 2.8vw">Portocaliu</button>
+                <button class="grid-item" type="button" onclick="play()">Yellow</button>
+                <button class="grid-item" type="button" onclick="play()">Sarı</button>
+                <button class="grid-item" type="button" onclick="play()">Giallo</button>
+                <button class="grid-item" type="button" onclick="play()">Rumena</button>
+                <button class="grid-item" type="button" onclick="play()">Zolts</button>
+                <button class="grid-item" type="button" onclick="play()">Galben</button>
+                <button class="grid-item" type="button" onclick="play()">Green</button>
+                <button class="grid-item" type="button" onclick="play()">Yeşil</button>
+                <button class="grid-item" type="button" onclick="play()">Verde</button>
+                <button class="grid-item" type="button" onclick="play()">Zelena</button>
+                <button class="grid-item" type="button" onclick="play()">Zelena</button>
+                <button class="grid-item" type="button" onclick="play()">Verde</button>
+                <button class="grid-item" type="button" onclick="play()">Blue</button>
+                <button class="grid-item" type="button" onclick="play()">Mavi</button>
+                <button class="grid-item" type="button" onclick="play()">Blu</button>
+                <button class="grid-item" type="button" onclick="play()">Modra</button>
+                <button class="grid-item" type="button" onclick="play()">Sina</button>
+                <button class="grid-item" type="button" onclick="play()">Albastru</button>
+                <button class="grid-item" type="button" onclick="play()">Purple</button>
+                <button class="grid-item" type="button" onclick="play()">Mor</button>
+                <button class="grid-item" type="button" onclick="play()">Viola</button>
+                <button class="grid-item" type="button" onclick="play()">Vijolična</button>
+                <button class="grid-item" type="button" onclick="play()">Violetova</button>
+                <button class="grid-item" type="button" onclick="play()">Violet</button>
+                <button class="grid-item" type="button" onclick="play()">White</button>
+                <button class="grid-item" type="button" onclick="play()">Beyaz</button>
+                <button class="grid-item" type="button" onclick="play()">Bianco</button>
+                <button class="grid-item" type="button" onclick="play()">Bela</button>
+                <button class="grid-item" type="button" onclick="play()">Bela</button>
+                <button class="grid-item" type="button" onclick="play()">Alb</button>
+                <button class="grid-item" type="button" onclick="play()">Black</button>
+                <button class="grid-item" type="button" onclick="play()">Siyah</button>
+                <button class="grid-item" type="button" onclick="play()">Nero</button>
+                <button class="grid-item" type="button" onclick="play()">Črna</button>
+                <button class="grid-item" type="button" onclick="play()">Crna</button>
+                <button class="grid-item" type="button" onclick="play()">Negru</button>
+                <button class="grid-item" type="button" onclick="play()">Pink</button>
+                <button class="grid-item" type="button" onclick="play()">Pembe</button>
+                <button class="grid-item" type="button" onclick="play()">Rosa</button>
+                <button class="grid-item" type="button" onclick="play()">Rose</button>
+                <button class="grid-item" type="button" onclick="play()">Rozeva</button>
+                <button class="grid-item" type="button" onclick="play()">Roz</button>
+                <button class="grid-item" type="button" onclick="play()">Brown</button>
+                <button class="grid-item" type="button" onclick="play()" style = "font-size: 2.6vw">Kahverengi</button>
+                <button class="grid-item" type="button" onclick="play()">Marrone</button>
+                <button class="grid-item" type="button" onclick="play()">Rjav</button>
+                <button class="grid-item" type="button" onclick="play()">Kafena</button>
+                <button class="grid-item" type="button" onclick="play()">Maro</button>
+            </div>
+        </div>
+
+        <!-- ###################################################################################################### -->
+        <!-- ###################################################################################################### -->
+        <!-- ###################################################################################################### -->
+        <!-- ###################################################################################################### -->
+
+        <div id = 'content3'>
+            <div>
+                <h1 class = 'header' style = 'font-size: 11vw'>Days of the week</h1>
+            </div>
+            <div class="grid-container">
+                <div class="grid-item top">
+                    <img src = 'United_Kingdom.png' class = 'flags'>
+                    <p class = 'label'>English</p>
+                </div>
+                <div class="grid-item top">
+                    <img src = "Turkey.png" class = 'flags'>
+                    <p class = 'label'>Turkish</p>
+                </div>
+                <div class="grid-item top">
+                    <img src = 'Italy.png' class = 'flags'>
+                    <p class = 'label'>Italian</p>
+                </div>  
+                <div class="grid-item top">
+                    <img src = 'Slovenia.png' class = 'flags'>
+                    <p class = 'label'>Slovenian</p>
+                </div>
+                <div class="grid-item top">
+                    <img src = 'North_Macedonia.png' class = 'flags'>
+                    <p class = 'label' id = 'macedonian'>Macedonian</p>
+                </div>
+                <div class="grid-item top">
+                    <img src = 'Romania.png' class = 'flags'>
+                    <p class = 'label'>Romanian</p> 
+                </div>  
+                <button class="grid-item" type="button" onclick="play()">Monday</button>
+                <button class="grid-item" type="button" onclick="play()">Pazartesi</button>
+                <button class="grid-item" type="button" onclick="play()">Lunedì</button>
+                <button class="grid-item" type="button" onclick="play()" style = "font-size: 2.6vw">Ponedeljek</button>
+                <button class="grid-item" type="button" onclick="play()" style = "font-size: 2.6vw">Ponedelnik</button>
+                <button class="grid-item" type="button" onclick="play()">Luni</button>
+                <button class="grid-item" type="button" onclick="play()">Tuesday</button>
+                <button class="grid-item" type="button" onclick="play()">Salı</button>
+                <button class="grid-item" type="button" onclick="play()">Martedì</button>
+                <button class="grid-item" type="button" onclick="play()">Torek</button>
+                <button class="grid-item" type="button" onclick="play()">Vtornik</button>
+                <button class="grid-item" type="button" onclick="play()">Marți</button>
+                <button class="grid-item" type="button" onclick="play()" style = 'font-size: 2.45vw'>Wednesday</button>
+                <button class="grid-item" type="button" onclick="play()" style = 'font-size: 2.8vw'>Çarşamba</button>
+                <button class="grid-item" type="button" onclick="play()" style = 'font-size: 2.9vw'>Mercoledì</button>
+                <button class="grid-item" type="button" onclick="play()">Sreda</button>
+                <button class="grid-item" type="button" onclick="play()">Sreda</button>
+                <button class="grid-item" type="button" onclick="play()">Miercuri</button>
+                <button class="grid-item" type="button" onclick="play()">Thursday</button>
+                <button class="grid-item" type="button" onclick="play()" style = 'font-size: 2.85vw'>Perşembe</button>
+                <button class="grid-item" type="button" onclick="play()">Giovedì</button>
+                <button class="grid-item" type="button" onclick="play()">Četrtek</button>
+                <button class="grid-item" type="button" onclick="play()">Cetvrtok</button>
+                <button class="grid-item" type="button" onclick="play()">Joi</button>
+                <button class="grid-item" type="button" onclick="play()">Friday</button>
+                <button class="grid-item" type="button" onclick="play()">Cuma</button>
+                <button class="grid-item" type="button" onclick="play()">Venerdì</button>
+                <button class="grid-item" type="button" onclick="play()">Petek</button>
+                <button class="grid-item" type="button" onclick="play()">Petok</button>
+                <button class="grid-item" type="button" onclick="play()">Vineri</button>
+                <button class="grid-item" type="button" onclick="play()">Saturday</button>
+                <button class="grid-item" type="button" onclick="play()" style = 'font-size: 2.85vw'>Cumartesi</button>
+                <button class="grid-item" type="button" onclick="play()">Sabato</button>
+                <button class="grid-item" type="button" onclick="play()">Sobota</button>
+                <button class="grid-item" type="button" onclick="play()">Sabota</button>
+                <button class="grid-item" type="button" onclick="play()">Sâmbătă</button>
+                <button class="grid-item" type="button" onclick="play()">Sunday</button>
+                <button class="grid-item" type="button" onclick="play()">Pazar</button>
+                <button class="grid-item" type="button" onclick="play()" style = 'font-size: 2.85vw'>Domenica</button>
+                <button class="grid-item" type="button" onclick="play()">Nedelja</button>
+                <button class="grid-item" type="button" onclick="play()">Nedela</button>
+                <button class="grid-item" type="button" onclick="play()">Duminică</button>
+            </div>
+        </div>
+        
+        <!-- ###################################################################################################### -->
+        <!-- ###################################################################################################### -->
+        <!-- ###################################################################################################### -->
+        <!-- ###################################################################################################### -->
+
+        <div id = 'content4'>
+            <div>
+                <h1 class = 'header'>Greetings</h1>
+            </div>
+            <div class="grid-container">
+                <div class="grid-item top">
+                    <img src = 'United_Kingdom.png' class = 'flags'>
+                    <p class = 'label'>English</p>
+                </div>
+                <div class="grid-item top">
+                    <img src = "Turkey.png" class = 'flags'>
+                    <p class = 'label'>Turkish</p>
+                </div>
+                <div class="grid-item top">
+                    <img src = 'Italy.png' class = 'flags'>
+                    <p class = 'label'>Italian</p>
+                </div>  
+                <div class="grid-item top">
+                    <img src = 'Slovenia.png' class = 'flags'>
+                    <p class = 'label'>Slovenian</p>
+                </div>
+                <div class="grid-item top">
+                    <img src = 'North_Macedonia.png' class = 'flags'>
+                    <p class = 'label' id = 'macedonian'>Macedonian</p>
+                </div>
+                <div class="grid-item top">
+                    <img src = 'Romania.png' class = 'flags'>
+                    <p class = 'label'>Romanian</p> 
+                </div>  
+                <button class="grid-item" type="button" onclick="play()">Good morning!</button>
+                <button class="grid-item" type="button" onclick="play()" style = 'font-size: 2.7vw'>Günaydın!</button>
+                <button class="grid-item" type="button" onclick="play()">Buon giorno!</button>
+                <button class="grid-item" type="button" onclick="play()">Dobro jutro!</button>
+                <button class="grid-item" type="button" onclick="play()">Dobro utro!</button>
+                <button class="grid-item" type="button" onclick="play()" style = 'font-size: 2.6vw'>Bună dimineața!</button>
+                <button class="grid-item" type="button" onclick="play()" style = 'font-size: 2.9vw'>Good afternoon!</button>
+                <button class="grid-item" type="button" onclick="play()" style = 'font-size: 2.8vw'>Tünaydın!</button>
+                <button class="grid-item" type="button" onclick="play()" style = 'font-size: 2.45vw'>Buon pomeriggio!</button>
+                <button class="grid-item" type="button" onclick="play()">Dober večer!</button>
+                <button class="grid-item" type="button" onclick="play()">Dobar den!</button>
+                <button class="grid-item" type="button" onclick="play()">Bună ziua!</button>
+                <button class="grid-item" type="button" onclick="play()">Good evening!</button>
+                <button class="grid-item" type="button" onclick="play()">İyi geceler!</button>
+                <button class="grid-item" type="button" onclick="play()">Buona sera!</button>
+                <button class="grid-item" type="button" onclick="play()">Dober večer!</button>
+                <button class="grid-item" type="button" onclick="play()">Dobra vecer!</button>
+                <button class="grid-item" type="button" onclick="play()">Bună seara!</button>
+                <button class="grid-item" type="button" onclick="play()">Good night!</button>
+                <button class="grid-item" type="button" onclick="play()">İyi geceler!</button>
+                <button class="grid-item" type="button" onclick="play()">Buona notte!</button>
+                <button class="grid-item" type="button" onclick="play()">Lahko noč!</button>
+                <button class="grid-item" type="button" onclick="play()">Dobra nok!</button>
+                <button class="grid-item" type="button" onclick="play()">Noapte bună!</button>
+                <button class="grid-item" type="button" onclick="play()">Hello!</button>
+                <button class="grid-item" type="button" onclick="play()">Merhaba!</button>
+                <button class="grid-item" type="button" onclick="play()">Ciao!</button>
+                <button class="grid-item" type="button" onclick="play()">Zdravo!</button>
+                <button class="grid-item" type="button" onclick="play()">Zdravo!</button>
+                <button class="grid-item" type="button" onclick="play()">Salut!</button>
+                <button class="grid-item" type="button" onclick="play()" style = 'font-size: 2.9vw'>Goodbye!</button>
+                <button class="grid-item" type="button" onclick="play()" style = 'font-size: 2.9vw'>Hoşçakal!</button>
+                <button class="grid-item" type="button" onclick="play()">Addio!</button>
+                <button class="grid-item" type="button" onclick="play()">Zbogom!</button>
+                <button class="grid-item" type="button" onclick="play()" style = 'font-size: 2.35vw'>Dogledanje!</button>
+                <button class="grid-item" type="button" onclick="play()">La revedere!</button>
+                <button class="grid-item" type="button" onclick="play()" style = 'font-size: 2.6vw'>Have a good day!</button>
+                <button class="grid-item" type="button" onclick="play()">iyi günler!</button>
+                <button class="grid-item" type="button" onclick="play()">Buona giornata!</button>
+                <button class="grid-item" type="button" onclick="play()">Imej lep dan!</button>
+                <button class="grid-item" type="button" onclick="play()" style = 'font-size: 2.75vw'>Imaj ubav den!</button>
+                <button class="grid-item" type="button" onclick="play()">O zi bună!</button>
+                <button class="grid-item" type="button" onclick="play()" style = 'font-size: 2.75vw'>Nice to meet you!</button>
+                <button class="grid-item" type="button" onclick="play()" style = 'font-size: 2.2vw'>Tanıştığımıza memnun oldum!</button>
+                <button class="grid-item" type="button" onclick="play()" style = 'font-size: 2.6vw'>Piacere di conoscerti!</button>
+                <button class="grid-item" type="button" onclick="play()" style = 'font-size: 2.6vw'>Lepo te je bilo srečati!</button>
+                <button class="grid-item" type="button" onclick="play()" style = 'font-size: 2.6vw'>Milo mi e sto te zapoznav!</button>
+                <button class="grid-item" type="button" onclick="play()" style = 'font-size: 2.6vw'>Mă bucur să te cunosc!</button>
+                <button class="grid-item" type="button" onclick="play()" style = 'font-size: 2.6vw'>Nice to meet you, too!</button>
+                <button class="grid-item" type="button" onclick="play()" style = 'font-size: 2.2vw'>Ben de çok memnun oldum!</button>
+                <button class="grid-item" type="button" onclick="play()" style = 'font-size: 2.6vw'>Piacere mio di conoscerti!</button>
+                <button class="grid-item" type="button" onclick="play()" style = 'font-size: 2.6vw'>Tudi tebe je lepo spoznati!</button>
+                <button class="grid-item" type="button" onclick="play()">Milo mi e i mene!</button>
+                <button class="grid-item" type="button" onclick="play()" style = 'font-size: 2.6vw'>Și eu mă bucur să te cunosc!</button>
+                <button class="grid-item" type="button" onclick="play()">How are you?</button>
+                <button class="grid-item" type="button" onclick="play()">Nasılsın?</button>
+                <button class="grid-item" type="button" onclick="play()">Come stai?</button>
+                <button class="grid-item" type="button" onclick="play()">Kako si?</button>
+                <button class="grid-item" type="button" onclick="play()">Kako si?</button>
+                <button class="grid-item" type="button" onclick="play()">Ce faci?</button>
+                <button class="grid-item" type="button" onclick="play()" style = 'font-size: 2.5vw'>I am fine, thank you!</button>
+                <button class="grid-item" type="button" onclick="play()" style = 'font-size: 2.6vw'>iyiyim, teşekkür ederim!</button>
+                <button class="grid-item" type="button" onclick="play()" style = 'font-size: 2.6vw'>Sto bene, grazie!</button>
+                <button class="grid-item" type="button" onclick="play()" style = 'font-size: 2.6vw'>Dobro sem, hvala!</button>
+                <button class="grid-item" type="button" onclick="play()" style = 'font-size: 2.2vw'>Dobro sum, blagodaram!</button>
+                <button class="grid-item" type="button" onclick="play()" style = 'font-size: 2.4vw'>Bine, mulțumesc!</button>
+            </div>
+        </div>
+        
+        <!-- ###################################################################################################### -->
+        <!-- ###################################################################################################### -->
+        <!-- ###################################################################################################### -->
+        <!-- ###################################################################################################### -->
+
+        <div id = 'content5'>
+            <div>
+                <h1 class = 'header' style = 'font-size: 6vw'>Introducing Yourself and Functional Language</h1>
+            </div>
+            <div class="grid-container">
+                <div class="grid-item top">
+                    <img src = 'United_Kingdom.png' class = 'flags'>
+                    <p class = 'label'>English</p>
+                </div>
+                <div class="grid-item top">
+                    <img src = "Turkey.png" class = 'flags'>
+                    <p class = 'label'>Turkish</p>
+                </div>
+                <div class="grid-item top">
+                    <img src = 'Italy.png' class = 'flags'>
+                    <p class = 'label'>Italian</p>
+                </div>  
+                <div class="grid-item top">
+                    <img src = 'Slovenia.png' class = 'flags'>
+                    <p class = 'label'>Slovenian</p>
+                </div>
+                <div class="grid-item top">
+                    <img src = 'North_Macedonia.png' class = 'flags'>
+                    <p class = 'label' id = 'macedonian'>Macedonian</p>
+                </div>
+                <div class="grid-item top">
+                    <img src = 'Romania.png' class = 'flags'>
+                    <p class = 'label'>Romanian</p> 
+                </div>  
+                <button class="grid-item" type="button" onclick="play()" style = 'font-size: 2.6vw'>What’s your name?</button>
+                <button class="grid-item" type="button" onclick="play()">Ismin ne?</button>
+                <button class="grid-item" type="button" onclick="play()">Come ti chiami?</button>
+                <button class="grid-item" type="button" onclick="play()">kako ti je ime?</button>
+                <button class="grid-item" type="button" onclick="play()" style = 'font-size: 2.6vw'>Kakoe tvoeto ime?</button>
+                <button class="grid-item" type="button" onclick="play()" style = 'font-size: 2.6vw'>Care e numele tău?</button>
+                <button class="grid-item" type="button" onclick="play()" style = 'font-size: 2.7vw'>My name is…</button>
+                <button class="grid-item" type="button" onclick="play()">Benim ismim...</button>
+                <button class="grid-item" type="button" onclick="play()" style = 'font-size: 2.7vw'>Il mio nome è ...</button>
+                <button class="grid-item" type="button" onclick="play()">Ime mi je…</button>
+                <button class="grid-item" type="button" onclick="play()">Moeto ime e...</button>
+                <button class="grid-item" type="button" onclick="play()" style = 'font-size: 2.6vw'>Numele meu este…</button>
+                <button class="grid-item" type="button" onclick="play()">How old are you?</button>
+                <button class="grid-item" type="button" onclick="play()" style = 'font-size: 2.4vw'>Kaç yaşındasın?</button>
+                <button class="grid-item" type="button" onclick="play()">Quanti anni hai?</button>
+                <button class="grid-item" type="button" onclick="play()">Koliko si star?</button>
+                <button class="grid-item" type="button" onclick="play()" style = 'font-size: 2.6vw'>Kolku godini imas?</button>
+                <button class="grid-item" type="button" onclick="play()">Câți ani ai?</button>
+                <button class="grid-item" type="button" onclick="play()" style = 'font-size: 2.6vw'>I am…years old.</button>
+                <button class="grid-item" type="button" onclick="play()" style = 'font-size: 2.4vw'>... yaşındayım.</button>
+                <button class="grid-item" type="button" onclick="play()">Io ho ... anni</button>
+                <button class="grid-item" type="button" onclick="play()">Stara sem...let.</button>
+                <button class="grid-item" type="button" onclick="play()" style = 'font-size: 2.6vw'>Jas imam... godini.</button>
+                <button class="grid-item" type="button" onclick="play()">Am ….. ani.</button>
+                <button class="grid-item" type="button" onclick="play()">I am a teacher.</button>
+                <button class="grid-item" type="button" onclick="play()" style = 'font-size: 2.5vw'>Ben bir öğretmenim.</button>
+                <button class="grid-item" type="button" onclick="play()" style = 'font-size: 2.5vw'>Io sono un insegnante</button>
+                <button class="grid-item" type="button" onclick="play()">Jaz sem učitelj.</button>
+                <button class="grid-item" type="button" onclick="play()" style = 'font-size: 2vw'>Jas sum nastavnik/ nastavnicka</button>
+                <button class="grid-item" type="button" onclick="play()" style = 'font-size: 2vw'>Sunt profesor/ profesoară.</button>
+                <button class="grid-item" type="button" onclick="play()">I am from…</button>
+                <button class="grid-item" type="button" onclick="play()">Lıyım...</button>
+                <button class="grid-item" type="button" onclick="play()">Vengo da ...</button>
+                <button class="grid-item" type="button" onclick="play()">Sem iz…</button>
+                <button class="grid-item" type="button" onclick="play()">Jas sum od...</button>
+                <button class="grid-item" type="button" onclick="play()">Sunt din…</button>
+                <button class="grid-item" type="button" onclick="play()">I like…</button>
+                <button class="grid-item" type="button" onclick="play()">Severim...</button>
+                <button class="grid-item" type="button" onclick="play()">Mi piace ..</button>
+                <button class="grid-item" type="button" onclick="play()">Všeč mi je…</button>
+                <button class="grid-item" type="button" onclick="play()" style = 'font-size: 2.55vw'>Mene mi se dopaga...</button>
+                <button class="grid-item" type="button" onclick="play()">Îmi place…</button>
+            </div>
+        </div>
+        
+        <!-- ###################################################################################################### -->
+        <!-- ###################################################################################################### -->
+        <!-- ###################################################################################################### -->
+        <!-- ###################################################################################################### -->
+
+        <div id = 'content6'>
+            <div>
+                <h1 class = 'header' style = 'font-size: 6vw'>Introducing Yourself and Functional Language</h1>
+            </div>
+            <div class="grid-container">
+                <div class="grid-item top">
+                    <img src = 'United_Kingdom.png' class = 'flags'>
+                    <p class = 'label'>English</p>
+                </div>
+                <div class="grid-item top">
+                    <img src = "Turkey.png" class = 'flags'>
+                    <p class = 'label'>Turkish</p>
+                </div>
+                <div class="grid-item top">
+                    <img src = 'Italy.png' class = 'flags'>
+                    <p class = 'label'>Italian</p>
+                </div>  
+                <div class="grid-item top">
+                    <img src = 'Slovenia.png' class = 'flags'>
+                    <p class = 'label'>Slovenian</p>
+                </div>
+                <div class="grid-item top">
+                    <img src = 'North_Macedonia.png' class = 'flags'>
+                    <p class = 'label' id = 'macedonian'>Macedonian</p>
+                </div>
+                <div class="grid-item top">
+                    <img src = 'Romania.png' class = 'flags'>
+                    <p class = 'label'>Romanian</p> 
+                </div>  
+                <button class="grid-item" type="button" onclick="play()">I don’t like…</button>
+                <button class="grid-item" type="button" onclick="play()" style = 'font-size: 2.6vw'>Sevmiyorum...</button>
+                <button class="grid-item" type="button" onclick="play()">Non mi piace ...</button>
+                <button class="grid-item" type="button" onclick="play()">Ne maram…</button>
+                <button class="grid-item" type="button" onclick="play()" style = 'font-size: 2.6vw'>Mene ne mi se dopaga...</button>
+                <button class="grid-item" type="button" onclick="play()">Nu îmi place…</button>
+                <button class="grid-item" type="button" onclick="play()">Yes</button>
+                <button class="grid-item" type="button" onclick="play()">Evet</button>
+                <button class="grid-item" type="button" onclick="play()">Sì</button>
+                <button class="grid-item" type="button" onclick="play()">Da</button>
+                <button class="grid-item" type="button" onclick="play()">Da</button>
+                <button class="grid-item" type="button" onclick="play()">Da</button>
+                <button class="grid-item" type="button" onclick="play()">No</button>
+                <button class="grid-item" type="button" onclick="play()">Numara</button>
+                <button class="grid-item" type="button" onclick="play()">No</button>
+                <button class="grid-item" type="button" onclick="play()">št</button>
+                <button class="grid-item" type="button" onclick="play()">Ne</button>
+                <button class="grid-item" type="button" onclick="play()">Nu</button>
+                <button class="grid-item" type="button" onclick="play()">Thank you!</button>
+                <button class="grid-item" type="button" onclick="play()" style = 'font-size: 2.4vw'>Teşekkürler!</button>
+                <button class="grid-item" type="button" onclick="play()">Grazie!</button>
+                <button class="grid-item" type="button" onclick="play()">Hvala vam!</button>
+                <button class="grid-item" type="button" onclick="play()" style = 'font-size: 2.25vw'>Blagodaram!</button>
+                <button class="grid-item" type="button" onclick="play()" style = 'font-size: 2.3vw'>Mulțumesc!</button>
+                <button class="grid-item" type="button" onclick="play()">I am happy.</button>
+                <button class="grid-item" type="button" onclick="play()" style = 'font-size: 2.6vw'>Mutluyum</button>
+                <button class="grid-item" type="button" onclick="play()">Io sono felice</button>
+                <button class="grid-item" type="button" onclick="play()">Vesel sem.</button>
+                <button class="grid-item" type="button" onclick="play()">Jas sum sreken/a.</button>
+                <button class="grid-item" type="button" onclick="play()">Sunt fericit!</button>
+                <button class="grid-item" type="button" onclick="play()">I am sad.</button>
+                <button class="grid-item" type="button" onclick="play()" style = 'font-size: 2.5vw'>Imutsuzum.</button>
+                <button class="grid-item" type="button" onclick="play()">Io sono triste</button>
+                <button class="grid-item" type="button" onclick="play()">Žalosten sem.</button>
+                <button class="grid-item" type="button" onclick="play()">Jas sum tazen/a.</button>
+                <button class="grid-item" type="button" onclick="play()">Sunt trist!</button>
+                <button class="grid-item" type="button" onclick="play()">I am nervous</button>
+                <button class="grid-item" type="button" onclick="play()">Gerginim.</button>
+                <button class="grid-item" type="button" onclick="play()">Io sono nervoso</button>
+                <button class="grid-item" type="button" onclick="play()">Sem živčen.</button>
+                <button class="grid-item" type="button" onclick="play()" style = 'font-size: 2.4vw'>Jas sum voznemiren/a.</button>
+                <button class="grid-item" type="button" onclick="play()" style = 'font-size: 2.6vw'>Sunt emoționat!</button>
+            </div>
+        </div>
+    </body>
+</html>
